@@ -1,0 +1,76 @@
+@font-face{
+    font-family: Jakarta-text;
+    src: url("./assets/fonts/PlusJakartaText-Regular\ copy.otf");
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: Jakarta-text;
+    src: url("./assets//fonts/PlusJakartaText-Light\ copy.otf");
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: Jakarta-display;
+    src: url("./assets/fonts/PlusJakartaDisplay-Medium\ copy.otf");
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: Jakarta-display;
+    src: url("./assets/fonts/PlusJakartaDisplay-Bold\ copy.otf");
+    font-weight: 600;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+    @media (max-width: 420px) {
+        font-size: 10px;
+    }
+    @media (max-width: 800px) {
+        font-size: 12px;
+    }
+    @media (max-width: 1000px) {
+        font-size: 14px;
+    }
+    @media (min-width: 1800px) {
+        font-size: 20px;
+    }
+    @media (min-width: 2000px) {
+        font-size: 26px;
+    }
+}
+
+p{
+    line-height: 160%;
+}
+
+button{
+    outline: none;
+    background: transparent;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    background-color: rgba(253,253,253, 1);
+}
